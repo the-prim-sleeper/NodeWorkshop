@@ -22,4 +22,4 @@ app.get('/polkka.ogg', (req, res, next) => {
 app.get('/icon.png', (req, res, next) => {
   res.sendfile('./icon.png');
 })
-app.listen(8000);
+app.listen(80);
