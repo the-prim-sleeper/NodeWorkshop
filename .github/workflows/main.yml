@@ -40,7 +40,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
         
       - name: Build and pushing
-        uses: dcoker/build-push-action@v2
+        uses: docker/build-push-action@v2
         with:
           push: true
           tags: gramps/leek-workshop:latest
